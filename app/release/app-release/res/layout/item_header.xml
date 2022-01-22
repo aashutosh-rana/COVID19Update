@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="#ff000000" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="state/ut" android:layout_weight="2.0" android:textAllCaps="true" />
+    <TextView android:textStyle="bold" android:textColor="@color/dark_red" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="confirmed" android:layout_weight="1.0" android:textAllCaps="true" />
+    <TextView android:textStyle="bold" android:textColor="@color/dark_blue" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="active" android:layout_weight="1.0" android:textAllCaps="true" />
+    <TextView android:textStyle="bold" android:textColor="@color/dark_green" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="recovered" android:layout_weight="1.0" android:textAllCaps="true" />
+    <TextView android:textStyle="bold" android:textColor="@color/dark_yellow" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="death" android:layout_weight="1.0" android:textAllCaps="true" />
+</LinearLayout>

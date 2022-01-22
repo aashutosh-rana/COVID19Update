@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    tools:context=".activity.WorldMeterActivity">
+
+    <RelativeLayout
+    android:id="@+id/progressLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_margin="2dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="country"
+        android:textAllCaps="true"
+        android:layout_weight="2"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_margin="2dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="total\ncases"
+        android:textAllCaps="true"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_margin="2dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="today\ncases"
+        android:textAllCaps="true"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_margin="2dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="total\ndeaths"
+        android:textAllCaps="true"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_margin="2dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="today\ndeaths"
+        android:textAllCaps="true"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textAlignment="viewEnd"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+</LinearLayout>

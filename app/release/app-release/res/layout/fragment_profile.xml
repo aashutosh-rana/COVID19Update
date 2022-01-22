@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/ib_profile_pic" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginTop="60.0dip" android:src="@drawable/stay_home" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <TableLayout android:id="@id/tl_data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/ib_profile_pic">
+        <TableRow>
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="First Name : " />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_dark" android:id="@id/tv_first_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Last Name : " />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_dark" android:id="@id/tv_last_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User Email : " />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_dark" android:id="@id/tv_email" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email Verified : " />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_dark" android:id="@id/tv_email_verifiied" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+    <Button android:textSize="30.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/btnShareThisApp" android:background="@android:drawable/dialog_holo_dark_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="50.0dip" android:text="share this app" android:layout_below="@id/tl_data" android:layout_centerInParent="true" />
+</RelativeLayout>

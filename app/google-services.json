@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "536608794911",
+    "firebase_url": "https://covid19-update-c3d9e.firebaseio.com",
+    "project_id": "covid19-update-c3d9e",
+    "storage_bucket": "covid19-update-c3d9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536608794911:android:6293b6a70a8f0b2485a82a",
+        "android_client_info": {
+          "package_name": "com.bcebhagalpur.covid19_update"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536608794911-g5b7vchoobfd00jl914unuhj19sso2vb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bcebhagalpur.covid19_update",
+            "certificate_hash": "524026c110fb45b811edf12519afa80efffdea17"
+          }
+        },
+        {
+          "client_id": "536608794911-3713obpnhh7378drlrtfjb7nigade8vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE9flLMR9TCwaJnEo4LDtWPDQQoN3yqoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536608794911-3713obpnhh7378drlrtfjb7nigade8vr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

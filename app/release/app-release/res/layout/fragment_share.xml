@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginTop="100.0dip" android:src="@drawable/stay_home" />
+    <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:background="@android:color/holo_green_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="stay home stay safe" android:textAllCaps="true" />
+    <Button android:textSize="30.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/btnShareThisApp" android:background="@android:drawable/dialog_holo_dark_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="50.0dip" android:text="share again" />
+</LinearLayout>

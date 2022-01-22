@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_margin="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/countryTv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="country" android:layout_weight="1.5" android:textAllCaps="true" />
+        <TextView android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/totalCasesTv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="total\ncases" android:layout_weight="1.5" android:textAllCaps="true" />
+        <TextView android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/todayCasesTv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="today\ncases" android:layout_weight="1.0" android:textAllCaps="true" />
+        <TextView android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/totalDeathsTv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="total\ndeaths" android:layout_weight="1.0" android:textAllCaps="true" />
+        <TextView android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/todayDeathsTv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="today\ndeaths" android:layout_weight="1.0" android:textAllCaps="true" android:textAlignment="viewEnd" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

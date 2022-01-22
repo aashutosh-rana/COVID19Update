@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginTop="60.0dip" android:src="@drawable/stay_home" />
+    <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:background="@android:color/holo_green_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="stay home stay safe" android:textAllCaps="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_blue_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/s1" android:layout_marginStart="10.0dip" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/s2" android:layout_marginStart="10.0dip" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_red_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/s3" android:layout_marginStart="10.0dip" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_purple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/s4" android:layout_marginStart="10.0dip" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_red_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/s5" android:layout_marginStart="10.0dip" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_green_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/s6" android:layout_marginStart="10.0dip" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/s7" android:layout_marginStart="10.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginTop="60.0dip" android:src="@drawable/stay_home" />
+    <LinearLayout android:orientation="vertical" android:background="@android:drawable/dialog_holo_dark_frame" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/btnIndia" android:background="@android:drawable/dialog_holo_dark_frame" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="india Covid-19 live update" />
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/btnWorld" android:background="@android:drawable/dialog_holo_dark_frame" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="world covid-19 live update" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/dark_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/info" android:isScrollContainer="true" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/info1" android:isScrollContainer="true" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:background="@color/dark_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="Stay home stay safe" android:textAllCaps="true" />
+</LinearLayout>

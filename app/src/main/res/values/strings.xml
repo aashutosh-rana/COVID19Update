@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">COVID-19 Updater</string>
+    <string name="deceased">deceased</string>
+    <string name="recovered">recovered</string>
+    <string name="active">Active</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="last_updated">LAST UPDATED</string>
+    <string name="india_covid_19_ntracker">INDIA COVID-19 \nTRACKER</string>
+    <string name="default_notification_channel_id">default</string>
+    <string name="text_confirmed_cases">India confirmed Cases : %s</string>
+    <string name="text_last_updated">Last Updated : %s</string>
+    <string name="default_notification_channel_name">Covid-19 India</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appbar_scrolling_view_behavior">yy</string>
+    <string name="safety_tips">Safety Tips</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="share">Share</string>
+    <string name="my_profile">My Profile</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="info">Join us and be a part of Corona warrior</string>
+    <string name="info1">Save your time and get the latest updates from the countries associated with Covid-19</string>
+
+    <string name="email_address">Email Address</string>
+    <string name="login1">Login</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_act">Creat Account</string>
+    <string name="login_title">Login</string>
+    <string name="etPassword">Password</string>
+    <string name="etEmail">Email Address</string>
+    <string name="send_password_reset_email">Send Password</string>
+
+    <string name="s1">Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.</string>
+    <string name="s2">Maintain at least 1 metre distance between you and people coughing or sneezing.</string>
+    <string name="s3">Avoid touching your face.</string>
+    <string name="s4">Cover your mouth and nose when coughing or sneezing.</string>
+    <string name="s5">Stay home if you feel unwell.</string>
+    <string name="s6">Refrain from smoking and other activities that weaken the lungs.</string>
+    <string name="s7">Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.</string>
+</resources>
